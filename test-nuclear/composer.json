@@ -1,0 +1,19 @@
+"repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "Matrix/test-nuclear",
+            "version": "dev-master",
+            "source": {
+                "url": "git://github.com/phprhl/Matrix-test-nuclear.git",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "psr-0" : {
+                    "Matrix\\test-nuclear" : "src"
+                }
+            }
+        }
+    }
+],
